@@ -10,9 +10,10 @@ MetaCyto is an R package that performs meta-analysis of both flow cytometry and 
 ```
 install.packages(c("dplyr", "tidyr", "fastcluster", "ggplot2", "metafor", "cluster"))
 
-source("https://bioconductor.org/biocLite.R")
-biocLite("flowCore")
-biocLite("FlowSOM")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("flowCore")
+BiocManager::install("FlowSOM")
 ```
 After installing all the dependencies, please download the whole package repository, open the “MetaCyto.Rproj” file and click Build&Reload button in RStudio. 
 
