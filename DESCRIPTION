@@ -1,7 +1,7 @@
 Package: MetaCyto
 Type: Package
 Title: MetaCyto: A package for meta-analysis of cytometry data
-Version: 1.4.0
+Version: 1.4.1
 Author: Zicheng Hu, Chethan Jujjavarapu, Sanchita Bhattacharya, Atul J. Butte
 Maintainer: Zicheng Hu <zicheng.hu@ucsf.edu>
 Description: This package provides functions for preprocessing, automated gating
@@ -13,4 +13,4 @@ Imports: flowCore (>= 1.4),tidyr (>= 0.7),fastcluster,ggplot2,metafor,cluster,Fl
 Depends: R (>= 3.4)
 Suggests: knitr, dplyr
 VignetteBuilder: knitr
-biocViews: CellBiology, FlowCytometry, Clustering, StatisticalMethod, Software, CellBasedAssays, Preprocessing
+biocViews: ImmunoOncology, CellBiology, FlowCytometry, Clustering, StatisticalMethod, Software, CellBasedAssays, Preprocessing
