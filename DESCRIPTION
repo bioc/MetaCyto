@@ -11,6 +11,6 @@ License: GPL (>= 2)
 RoxygenNote: 6.0.1
 Imports: flowCore (>= 1.4),tidyr (>= 0.7),fastcluster,ggplot2,metafor,cluster,FlowSOM, grDevices, graphics, stats, utils 
 Depends: R (>= 3.4)
-Suggests: knitr, dplyr
-VignetteBuilder: knitr
+Suggests: knitr, dplyr, rmarkdown
+VignetteBuilder: knitr, rmarkdown
 biocViews: ImmunoOncology, CellBiology, FlowCytometry, Clustering, StatisticalMethod, Software, CellBasedAssays, Preprocessing
